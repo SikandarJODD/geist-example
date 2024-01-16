@@ -27,7 +27,7 @@
     <InputCard />
   </div>
   <div class="justify-center flex mt-4 flex-wrap flex-col items-center">
-    <div class="flex items-center gap-3 flex-wrap md:flex-row">
+    <div class="flex items-center gap-1 md:gap-3 flex-wrap md:flex-row">
       <Button color="secondary" on:click={allTodo}>All</Button>
       <Button on:click={completed}>
         <svg
